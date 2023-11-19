@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Poppins:wght@400;500;600;700;800;900&family=Quicksand:wght@500;600;700&family=Vina+Sans&family=Young+Serif&display=swap");
+
+:root {
+  --fonts-poppins: "Poppins", sans-serif;
+  --fonts-asap: "Asap", sans-serif;
+  --fonts-quicksand: "Quicksand", sans-serif;
+  --fonts-vina: "Vina Sans", sans-serif;
+  --fonts-young: "Young Serif", serif;
+}
+
+body {
+  background: black;
+  color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contenedor {
+  width: 300px;
+  /* border: red solid 2px; */
+}
+body * > div {
+  width: 300px;
+  /* border: #fff solid 2px; */
+}
+.afip {
+  font-family: var(--fonts-quicksand);
+  font-size: 8px;
+  text-align: center;
+}
+.logo_img img {
+  width: 150px;
+}
+.logo_text {
+  font-family: var(--fonts-poppins);
+  font-size: 110px;
+  font-weight: 700;
+  height: 15%;
+}
+
+.logo_text1,
+.logo_subtext {
+  font-family: var(--fonts-asap);
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  color: grey;
+}
+.redes {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 20px 10px 10px 10px;
+}
+.uil-whatsapp {
+  color: #24ca2c;
+}
+
+i {
+  font-size: 50px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.mapa {
+  margin: 10px;
+}
