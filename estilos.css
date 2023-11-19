@@ -32,7 +32,8 @@ body * > div {
   width: 300px;
   /* border: #fff solid 2px; */
 }
-.afip {
+.afip,
+.autor {
   font-family: var(--fonts-quicksand);
   font-size: 8px;
   text-align: center;
