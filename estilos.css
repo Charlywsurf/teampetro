@@ -38,6 +38,12 @@ body * > div {
   font-size: 8px;
   text-align: center;
 }
+.autor a {
+  color: #363836;
+  font-family: var(--fonts-young);
+  font-size: 20px;
+  font-weight: 800;
+}
 .logo_img img {
   width: 150px;
 }
@@ -68,7 +74,7 @@ i {
   font-size: 50px;
 }
 
-a {
+body * > a {
   list-style: none;
   text-decoration: none;
 }
