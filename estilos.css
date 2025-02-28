@@ -114,7 +114,7 @@
 }
 footer {
   width: 100vw;
-  height: 400px;
+  height: 500px;
   background: black;
   color: white;
   font-size: 10px;
@@ -124,7 +124,6 @@ footer {
   display: flex;
   height: 90%;
   align-items: flex-start;
-
   margin: 0 auto;
 }
 .foot_l,
