@@ -1,0 +1,51 @@
+
+
+let pelu = [
+  {
+    'servicio': 'lavado(desde)',
+    'valor': '$ 12000'
+  },
+  {
+    'servicio': 'peinado',
+    'valor':'$	12000'
+  }
+];
+  // , { 'extra por planchita': '$	5000' }
+  // , { 'peinado especial (bucles)': '$ 27600' }
+  // , { 'peinado recogido': '$ 39600' }
+  // , { 'tratamiento sebastian/loreal': '$ 30000' }
+  // , { 'tratamiento molecular loreal lavado incluido, peinado no incluido': '$ 16000' }
+  // , { 'tratamiento kerssell colgeno lavado y peinado incluido': '$ 56500' }
+  // , { 'OLAPLEX MANTENIMIENTO': '$ 45000' }
+  // , { 'OLAPLEX BAÑO DE CREMA 2 EN 1': '$ 60000' }
+  // , { 'OLAPLEX ORIGINAL PASO 1, 2 + 4 BAñO DE CREMA': '$ 70000' }
+  // , { 'color  / lavado incluido (raiz)': '$	45000' }
+  // , { 'color difuso / lavado incluido (raiz a punta un solo color)': '$	67500' }
+  // , { 'dos trabajos de color': '$ 81000' }
+  // , { 'color inoa (sin amoniaco) / lavado incluido (raiz)': '$ 60000' }
+  // , { 'color inoa difuso (sin amoniaco)  / lav incluido (raiz a punta un solo color)': '$ 90000' }
+  // , { 'dos trabajos de color inoa (sin amoniaco)  / lavado incluido': '$ 102000' }
+  // , { 'tono sobre tono / lavado incluido (raiz)': '$ 49000' }
+  // , { 'tono sobre tono / lavado incluido (raiz a punta un solo color)': '$ 73500' }
+  // , { 'dos trabajos tono sobre tono / lavado incluido': '$ 83300' }
+  // , { 'henna color / incluye lavado': '$ 47000' }
+  // , { 'shampoo color con amoniaco (baño de luz)': '$ 35000' }
+  // , { 'shampoo color sin amoniaco INOA (baño de luz)': '$ 45000' }
+  // , { 'ilumunacion/reflejos/mechas sistema con peine(desde)': '$ 88200' }
+  // , { 'mechas con papel (desde)': '$ 104000' }
+  // , { 'botox o shock de keratina corto': '$ 30000' }
+  // , { 'botox o shock de keratina melena': '$ 42000' }
+  // , { 'botox o shock de keratina largo': '$ 51000' }
+  // , { 'botox o shock de keratina muy largo': '$ 60000' }
+  // , { 'manicuria (desde)': '$ 15000' }
+  // , { 'manicuria semipermanente (desde)': '$ 20000' }
+  // , { 'kapping gel (desde)': '$	33000' }
+  // , { 'soft gel (desde)': '$ 43000' }
+  // , { 'belleza de pies (desde)': '$	21000' }
+  // , { 'belleza de pies semipermanente (desde)': '$ 26000' }
+  // , { 'pedicuria con torno (desde)': '$	25200' }
+  // , { 'pedicuria con bisturi (desde)': '$ 30240' }
+  // , { 'pedicuria profunda (desde)': '$ 44100' }
+  // , { 'retiro de semi': '$ 6000' }
+  // , { 'retiro de kapping/esculpidas': '$ 11000' }
+  // , { 'maquillaje': '$ 70000' }

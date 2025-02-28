@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Georgia, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicios_centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.servi_titulo {
+  width: 100vw;
+  font-size: 40px;
+  background: green;
+  text-transform: uppercase;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 auto;
+  max-width: 700px;
+  z-index: 1000;
+}
+
+.contenedor {
+  width: 100vw;
+  margin: 0 auto;
+  color: silver;
+  position: fixed;
+  z-index: 1;
+  top: -100%;
+ 
+  display: grid;
+  grid-template-areas:
+    "descripcion valor"
+    "desc_result valor_result";
+  transition: .3s;
+}
+
+.servi_descripcion {
+  grid-area: descripcion;
+  text-transform: uppercase;
+  font-size: 20px;
+  background: black;
+}
+.servi_valor {
+  grid-area: valor;
+  text-transform: uppercase;
+  font-size: 20px;
+  background: black;
+}
+.servi_desc_result {
+  grid-area: desc_result;
+}
+.servi_valor_result {
+  grid-area: valor_result;
+}
